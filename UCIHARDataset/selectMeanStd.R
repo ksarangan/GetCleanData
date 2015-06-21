@@ -26,15 +26,12 @@ selectMeanStd <- function(meanIndices, stdIndices, mergedTestTrain, features, ac
 
 				}
 			}
-			#colnames(varSelection)[k] <- as.character(ColName[k])
+			
 		}
 
 			
-		#varSelection<-cbind(varSelection,mergedTestTrain[,562])
-		#colnames(varSelection)[80] <- "ActivityLabel"
-		
+				
 		varSelection
-		#Index
 
 		
 }

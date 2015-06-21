@@ -5,7 +5,6 @@ nameActivities <- function(varSelection, activityLabels) {
 
 	i <- NULL
 
-#	varSelection <- merge(varSelection, activityLabels, by.x = "ActivityLabel", by.y = "V1", all=FALSE)
 	for (i in 1:nrow(varSelection)) {
 		
 		if (varSelection[i,80] == "1")	{
